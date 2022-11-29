@@ -2,6 +2,49 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.31.0](https://github.com/vtexdocs/devportal/compare/v0.30.0...v0.31.0) (2022-11-29)
+
+
+### Features
+
+* **markdown:** add support for rendering HTML magic blocks in markdown ([1e0fac1](https://github.com/vtexdocs/devportal/commit/1e0fac18efff0396d5cffadb2e8338ddcb5b48bf))
+
+
+### Bug Fixes
+
+* **api-guides:** check if code blocks inside markdown file are correctly formatted ([ec5b382](https://github.com/vtexdocs/devportal/commit/ec5b38267062051fe8a0d6756b310f2ffcf1ce9f))
+* **api-guides:** escape <> occurrences ([18d6b36](https://github.com/vtexdocs/devportal/commit/18d6b36d39dc88b4e1bb17efdea29feb815f50db))
+* **api-guides:** escape curly braces inside markdown files ([f9491a3](https://github.com/vtexdocs/devportal/commit/f9491a3b123a9a127fad7174662fe12358b4f630))
+* **api-guides:** handle documentations with level-3 headings, but no level-2 headings ([3718a87](https://github.com/vtexdocs/devportal/commit/3718a873fcddc037ce5743cde30306f1caac28ee))
+* **api-guides:** only escape curly braces outside magic blocks ([3603439](https://github.com/vtexdocs/devportal/commit/3603439cf078c7b1f77925f03e903a8530680305))
+* **api-guides:** replace all occurrences of br HTML tags with JSX ([6544bb3](https://github.com/vtexdocs/devportal/commit/6544bb3e0471fd860c759a3322edce36a02b040d))
+* **api-guides:** replace br HTML tags with JSX and remove HTML comments ([baebbbc](https://github.com/vtexdocs/devportal/commit/baebbbcea2641af794fd739c8daedadd688c05e5))
+* **api-guides:** replace HTML blocks inside markdown files with JSX components ([e99c45b](https://github.com/vtexdocs/devportal/commit/e99c45bae24166070b7fc83fad041bfc73e1e095))
+* **api-guides:** skip frontmatter when escaping curly braces ([e7cf028](https://github.com/vtexdocs/devportal/commit/e7cf0281c8527613e73c16cb6d364a5a3112307f))
+* **childrenToString:** fix childrenToString when given an undefined parameter ([8697d56](https://github.com/vtexdocs/devportal/commit/8697d56e00dac2e1770de27ed5b7a541cdf0a375))
+* **escapeCurlyBraces:** improve check for incorrectly formatted code blocks ([b5b65ea](https://github.com/vtexdocs/devportal/commit/b5b65eaa4660bdf23aa539a3bb2e752b48968311))
+* **escapeCurlyBraces:** only escape curly braces outside of code blocks ([ce1a3b5](https://github.com/vtexdocs/devportal/commit/ce1a3b52c254f538b05aeb3be6dadbaf7597b162))
+* implement handleclick and slugprefix ([cf99900](https://github.com/vtexdocs/devportal/commit/cf99900cd88cf387ae4b3df2cc79eb112e2494b7))
+* **replaceHTMLBlocks:** only match HTML tags, not JSX components ([186dea2](https://github.com/vtexdocs/devportal/commit/186dea2d1f558f6d5d25eccdfe9474aee3616f22))
+
+
+### Style
+
+* **api-guides:** log file path when logging error ([2ceb5ed](https://github.com/vtexdocs/devportal/commit/2ceb5edcccd4cdb670f0a1f9fea3291d784763ed))
+* refactor ([ef42d6c](https://github.com/vtexdocs/devportal/commit/ef42d6c966612349835a88500dfb5e576898848f))
+
+
+### Chore
+
+* update nextjs react ([2c1549c](https://github.com/vtexdocs/devportal/commit/2c1549ca8fdcb536d3e67fd4c5956c1dd424a956))
+
+
+### Refactoring
+
+* **components:** updates links and images for nextjs@13 ([bd2b17e](https://github.com/vtexdocs/devportal/commit/bd2b17e94e62f28ddf169af6ae3e0490688ec2aa))
+* **images:** uses the latest next/image component ([dabf538](https://github.com/vtexdocs/devportal/commit/dabf5381fc299893473ab7f966b91f9c9842d29e))
+* **next.config.js:** add image remotePattern for all hosts ([d6ef6e7](https://github.com/vtexdocs/devportal/commit/d6ef6e7606bf6b3208a0c23594d23a5951797567))
+
 ## [0.30.0](https://github.com/vtexdocs/devportal/compare/v0.29.2...v0.30.0) (2022-11-21)
 
 
